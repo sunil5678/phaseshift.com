@@ -1,0 +1,378 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: arial;
+    background: url("bg.jpg");
+    background-size: cover;
+    background-position:center top;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.clearflix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+
+/* banner-start */
+
+.nav{
+    float:left;
+    background-color:black;
+    width:100%;
+    font-size: 12px; 
+}
+
+.menu{
+    float:right;
+   position: relative;
+   top:-40px;
+   font-size: 12px;
+}
+
+li{
+    float:left;
+    list-style: none;
+    margin-right:30px;
+}
+
+.banner-text{
+   
+   width:50%;
+   margin:auto;
+   text-align:center;
+   padding:20px;
+}
+
+.banner-text p{
+    font-size: 15px;
+    line-height:25px;
+}
+
+.rrr{
+    background-color: deeppink;
+    border:0px;
+    color:white;
+    font-size:13px;
+    padding:10px;
+}
+
+/* banner-end */
+
+/* start-middle-section */
+
+.middle-section{
+    width: 70%;
+    margin:auto;
+    margin-top:50px;
+
+}
+
+.first{
+    float:left;
+    width: 30%;
+    margin-left:25px;
+}
+
+
+
+.one{
+    width:100%;
+    text-align:center;
+    background-color: #fff;
+    padding-bottom:20px;
+    margin-bottom:25px;
+    
+}
+
+.one img{
+    width:100%;
+}
+
+.one p{
+    font-size:13px;
+    line-height:25px;
+    color:black;
+    padding:15px;
+  
+}
+
+/* middle-section-end */
+
+/* start last-part */
+
+.last-part{
+    width: 70%;
+    margin:auto;
+
+}
+
+.comman-1{
+    float:left;
+    width:30%;
+    margin: 70px;
+}
+
+.alfa{
+    width:100%;
+    margin-bottom:30px;
+    
+}
+
+.alfa img{
+    width:50px;
+   height:40px;
+}
+
+.alfa p{
+    font-size:10px;
+    line-height: 15px;
+}
+
+/* end last-part */
+
+/* start footer */
+
+.upper-footer{
+    width:100%;
+    background-color: deeppink;
+    text-align:center;
+    padding-bottom:50px;
+}
+
+.upper-footer h3{
+    padding-top:50px;
+    position: relative;
+    top:10px;
+   
+}
+
+.upper-footer{
+    line-height:15px;   
+}
+
+.upper-footer input{
+
+width:500px;
+margin-bottom:20px;
+}
+
+.upper-footer button{
+    background-color: deeppink;
+    color:#fff;
+    width:170px;
+    height:35px;
+    margin-top:20px;
+    border:1px solid white;
+
+}
+
+.footer{
+    text-align:center;
+    background-color: black;
+    padding: 20px;
+  
+}
+
+.footer p{
+    margin:0px;
+}
+
+.footer .fa{
+    border-radius: 50%;
+    border:1px solid white;
+   width:20px;
+   margin-left:10px;
+}
+
+/* end footer */
+
+/* start media-queiry */
+
+@media only screen and (max-width:500px){
+    body{
+        width:100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .nav{
+       
+        font-size: 10px; 
+    }
+    
+    .menu{
+       
+       top:-30px;
+       font-size: 8px;
+    }
+    
+
+    
+    
+    li{
+        float:left;
+        list-style: none;
+        margin-right:10px;
+    }
+    
+    .banner-text{
+       
+       width:50%;
+       margin:auto;
+       text-align: center;
+       padding:10px;
+    }
+    
+    .banner-text p{
+        font-size: 8px;
+        line-height:15px;
+    }
+    
+    .rrr{
+        background-color: deeppink;
+        border:0px;
+        color:white;
+        font-size:10px;
+        padding:10px;
+    }
+    
+    /* banner-end */
+
+    .middle-section{
+        width: 100%;
+        margin:auto;
+        margin-top:20px;
+       
+    
+    }
+    
+    .first{
+        float:left;
+        width: 100%;
+        margin-left:0px;
+    }
+    
+    
+    
+    .one{
+        width:100%;
+        text-align:center;
+        background-color: #fff;
+        padding-bottom:10px;
+        margin-bottom:10px;
+        
+    }
+    
+    .one img{
+        width:100%;
+    }
+    
+    .one p{
+        font-size:13px;
+        line-height:25px;
+        color:black;
+        padding:15px;
+      
+    }
+
+    .last-part{
+        width: 100%;
+        margin:auto;
+    
+    }
+    
+    .comman-1{
+        float:left;
+        width:100%;
+        margin: 40px;
+    }
+    
+    .alfa{
+        width:60%;
+        margin-bottom:20px;
+        
+    }
+    
+    .alfa img{
+        width:50px;
+       height:40px;
+    }
+    
+    .alfa p{
+        font-size:10px;
+        line-height: 15px;
+    }
+
+    .upper-footer{
+        padding-bottom:30px;
+    }
+    
+    .upper-footer h3{
+        padding-top:30px;
+        position: relative;
+        top:10px;
+        font-size: 15px;
+       
+    }
+
+    .upper-footer p{
+        font-size: 10px;
+    }
+    
+    .upper-footer{
+        line-height:15px;   
+    }
+    
+    .upper-footer input{
+    
+    width:300px;
+    margin-bottom:15px;
+    }
+    
+    .upper-footer button{
+        width:150px;
+        height:25px;
+        margin-top:20px;
+    
+    }
+
+    .upper-footer textarea{
+        width:300px;
+        height:50px;
+    }
+    
+    .footer{
+        padding: 20px;
+      
+    }
+    
+    .footer p{
+        
+        font-size: 10px;
+    }
+    
+    .footer .fa{
+       width:15px;
+       margin-left:8px;
+    }
+    
+    
+    
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
